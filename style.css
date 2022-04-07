@@ -31,7 +31,23 @@
   left: 50px;
 
   animation: circle 1s infinite;
+  /* animation: circle 3s infinte, then the ball will take 3 seconds to finish source to destinatio */
 }
 
 @keyframes circle {
+  0% {
+    left: 50px;
+    top: 50px;
+  }
+
+  25% {
+  }
+  50% {
+  }
+  75% {
+  }
+  100% {
+    top: 50px;
+    left: 80vw;
+  }
 }
