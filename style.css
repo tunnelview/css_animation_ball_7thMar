@@ -29,4 +29,9 @@
   position: absolute;
   /* left: 10px; 50 px will push the ball in the middle */
   left: 50px;
+
+  animation: circle 1s infinite;
+}
+
+@keyframes circle {
 }
