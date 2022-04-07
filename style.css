@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .parent {
@@ -16,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: relative; */
 }
 
 .ball {
@@ -23,4 +25,8 @@
   height: 50px;
   background: radial-gradient(white, red);
   border-radius: 50%;
+
+  position: absolute;
+  /* left: 10px; 50 px will push the ball in the middle */
+  left: 50px;
 }
